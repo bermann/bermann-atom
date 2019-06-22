@@ -1,26 +1,18 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    ".tree-view .header.list-item": [
       {
-        "label": "Toggle bermann-atom",
-        "command": "bermann-atom:toggle"
+        "label": "Bermann",
+        "submenu": [
+          {
+            "label": "Create a new React Function Component",
+            "command": "bermann:create-react-function-component"
+          }
+        ]
+      },
+      {
+        "type": "separator"
       }
     ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "bermann-atom",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "bermann-atom:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  }
 }
