@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle bermann-atom",
+        "command": "bermann-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "bermann-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "bermann-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
