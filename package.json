@@ -1,16 +1,16 @@
 {
   "name": "bermann-atom",
   "main": "./lib/bermann-atom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "bermann-atom:toggle"
-  },
   "repository": "https://github.com/bermann/bermann-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "fs-plus": "^3.1.1"
+  }
 }
