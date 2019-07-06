@@ -7,6 +7,10 @@
           {
             "label": "Create a new React Function Component",
             "command": "bermann:create-react-function-component"
+          },
+          {
+            "label": "Create a new React Function Component With Styles",
+            "command": "bermann:create-react-function-component-with-stylews"
           }
         ]
       },
